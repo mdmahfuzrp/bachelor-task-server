@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/routes/(.*)",
+      "src": "/models/(.*)",
       "dest": "index.js",
       "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
     }
